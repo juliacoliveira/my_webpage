@@ -1,0 +1,16 @@
+.lista-principal {
+    color: purple;
+}
+
+.lista-interna {
+    color: black;
+}
+
+.fundo-livros {
+    background-color: #ADD8E6;
+}
+
+#title-books {
+    font-size: 80px;
+    text-align: center;
+}

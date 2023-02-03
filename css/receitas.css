@@ -1,20 +1,29 @@
-html {
-	font-family: arial;
+body {
+	display: flex;
+	flex-direction: column;
+	background-color: #DCDCDC;
+	justify-content: space-between;
+	align-items: center;
 }
 
-h1{
-	color:purple;
-	background-color: grey;
-	font-weight: 800;
-	text-align: center;
+.menu-principal {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	box-sizing: border-box;
+	background-color: #87CEEB;
+	justify-content: space-between;
+	padding: 0px 150px;
 }
 
-h2{
-	color: blue;
-	font-weight: 700;
+.redes-sociais {
+	display: flex;
+	flex-direction: row;
+	align-self: center;
+	justify-content: space-between;
+	gap: 5px;
 }
 
-.ingredientes, .preparacao{
-	color: purple;
-	font-weight: 600;
+body>img {
+	width: 15%;
 }

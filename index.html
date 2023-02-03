@@ -1,42 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>My first Webpage</title>
-		
-		<link rel="stylesheet" href="css/index.css">
-	</head>	
 
-	<!-- Testando um comentário em HTML-->
-	
-	<body>
-		<img src="images/eu.jpeg" class = "center">
-		<h1>Júlia Oliveira</h1>
-		<h2> Um pouco sobre mim </h2>
-		<p>Eu me chamo <strong> Júlia </strong> e estou cursando <strong>Engenharia de Computação</strong> na UFRN, com previsão de formação em Dezembro de 2022.</p>
-		<p> Se você quiser saber um pouco mais sobre mim, visite o meu <a href="https://www.linkedin.com/in/juliacco/">Linkedin</a> e o meu <a href="https://github.com/juliacoliveira"> Github</a>.
-		<h2>Trajetória acadêmica</h2>
-		<h2>Linguagens</h2>
-		<p>Tenho conhecimento em: </p>
+<head>
+	<meta charset="UTF-8">
+	<title>My Webpage</title>
+
+	<link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+	<header class="menu-principal">
+		<div class="logo">
+			<img src="./Img/pig.png" alt="porquinho de cabeça para baixo" width="80">
+		</div>
+
+		<div class="nome">
+			<h1>Julia Oliveira</h1>
+		</div>
+
+		<div class="redes-sociais">
+			<a href="https://www.linkedin.com/in/j%C3%BAlia-costa-corr%C3%AAa-de-oliveira-02a78015b/"><img
+					src="./Img/linkedin.png" alt="logo do linkedin" width="30"></a>
+			<a href="https://www.github.com/juliacoliveira"><img src="./Img/github.png" alt="logo do linkedin"
+					width="30"></a>
+		</div>
+	</header>
+	<div class="conteudoBody">
+		<img class="centralImage" src="Img/eu.jpeg">
+		<div class="abouMe">
+			<h2> About me </h2>
+			<p>My name is <strong> Júlia </strong> and I am a <strong>Computer Engineer</strong> graduated from UFRN.
+				I'm currently living in France. </p>
+		</div>
+		<div class="academic">
+			<!-- <h1>Academic Trajectory</h1> -->
+			<h2>Programming Languages</h2>
+			<p>I know: </p>
+			<div class="languagesKnow">
+				<img src="Img/C_Logo.png" alt="Logo of C language">
+				<img src="Img/c++.png" alt="Logo of C++ language">
+				<img src="Img/python.png" alt="Logo of Python language">
+			</div>
+			<p>Improving myself in: </p>
+			<div class="languagesLearn">
+				<img src="Img/html.png" alt="Logo of HTML language">
+				<img src="Img/css.png" alt="Logo of CSS language">
+				<img src="Img/js.png" alt="Logo of JS language">
+			</div>
+		</div>
+		<div class="interestCenter">
+			<h2>Centers of interest </h2>
 			<ul>
-				<li>C</li>
-				<li>C++</li>
-				<li>Python</li>
+				<li><a href="photo.html"> Photography </a> </li>
+				<li><a href="books.html"> Books </a></li>
+				<li> Series </li>
+				<li> Learn new languages </li>
+				<li><a href="receitas.html">Cooking</a></li>
 			</ul>
-		<p>Estou me aperfeiçoando em: </p> 
-			<ul>	
-				<li>HTML</li>
-				<li>CSS </li> 
-				<li>JavaScript</li>
-			</ul>
-		<h2>Centros de interesse </h2>
+		</div>
+		<div class="languages">
+			<h2> Languages </h2>
 			<ul>
-				<li><a href = "photo.html"> Fotografia </a> </li>
-				<li><a href="books.html"> Livros <a></li>
-				<li> Séries </li>
-				<li> Idiomas </li>
-				<li><a href="receitas.html">Comidas</li>
+				<li> Portuguese (Native Speaker)</li>
+				<li> English </li>
+				<li> French </li>
+				<li> Italian </li>
 			</ul>
-	</body>
+		</div>
+	</div>
+</body>
 
 </html>
